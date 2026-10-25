@@ -6,7 +6,8 @@ Repository for my Datheon internship program work — a collection of console-ba
 
 | # | Task | Folder | Status |
 |---|------|--------|--------|
-| 1 | Hangman Word Guessing Game (Console) | [Hangman-Game](./Hangman-Game) | ✅ Complete |
+| 1 | Hangman Word Guessing Game (Console) | [Hangman Word Guessing Game(Console)](./Hangman%20Word%20Guessing%20Game%28Console%29) | ✅ Complete |
+| 2 | Stock Portfolio Performance Tracker | [Stock Portfolio Performer Tracker](./Stock%20Portfolio%20Performer%20Tracker) | ✅ Complete |
 
 More tasks will be added here as the program progresses.
 
@@ -14,8 +15,9 @@ More tasks will be added here as the program progresses.
 
 ```
 Datheon-Python-Internship/
-├── README.md          # This file — task index
-├── Hangman-Game/      # Task 1 — Terminal Hangman with ASCII art
+├── README.md                                  # This file — task index
+├── Hangman Word Guessing Game(Console)/       # Task 1 — Terminal Hangman with ASCII art
+├── Stock Portfolio Performer Tracker/         # Task 2 — Portfolio valuation + CSV logging
 └── .gitignore
 ```
 
