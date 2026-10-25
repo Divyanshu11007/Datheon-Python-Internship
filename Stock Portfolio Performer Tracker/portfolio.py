@@ -49,7 +49,7 @@ def green(t):  return _c("92", t)
 def yellow(t): return _c("93", t)
 def cyan(t):   return _c("96", t)
 def bold(t):   return _c("1",  t)
-def dim(t):    return _c("2",  t)
+def dim(t):    return _c("90",  t)
 
 # ──────────────────────────────────────────────────────────────────────────────
 # File paths (resolved next to this script or in current working directory)
