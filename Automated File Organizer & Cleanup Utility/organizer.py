@@ -97,7 +97,7 @@ def unique_destination(dest_dir: Path, filename: str) -> Path:
     stem, suffix = candidate.stem, candidate.suffix
     counter = 1
     while candidate.exists():
-        candidate = dest_dir / f" {stem} ({counter}){suffix}"
+        candidate = dest_dir / f"{stem} ({counter}){suffix}"
         counter += 1
     return candidate
 
