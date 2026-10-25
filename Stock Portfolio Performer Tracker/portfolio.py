@@ -7,8 +7,8 @@ Features
 • Loads S&P 500 ticker metadata (symbol, name, sector) from 'constituents.csv'.
 • Prompts for holdings: ticker symbol, buy price, share quantity.
 • Stores portfolio positions in a dictionary keyed by symbol.
-• Looks up current prices live from Stooq (free endpoint, stdlib only) —
-  graceful fallback to manual price entry when offline.
+• Looks up current prices live from Yahoo Finance (free endpoint, stdlib
+  only) — graceful fallback to manual price entry when offline.
 • Computes invested capital vs current market value, per-holding P/L,
   portfolio totals, and best / worst performers.
 • Automatically logs the transaction summary to 'portfolio_summary.csv'
@@ -20,6 +20,7 @@ Usage
 """
 
 import csv
+import json
 import os
 import sys
 import io
@@ -106,17 +107,19 @@ def parse_float(prompt: str, allow_zero: bool = False) -> float:
 
 def fetch_live_price(symbol: str, timeout: float = 8.0):
     """
-    Return the latest price for *symbol* from stooq.com, or None on any
-    network / parse failure (caller falls back to manual entry).
+    Return the latest price for *symbol* from Yahoo Finance's free chart
+    endpoint, or None on any network / parse failure (caller falls back
+    to manual entry). No API key required.
     """
-    url = f"https://stooq.com/q/l/?s={symbol.lower()}.us&f=sd2t2ohlcv&h&e=csv"
+    url = (f"https://query1.finance.yahoo.com/v8/finance/chart/{symbol}"
+           f"?interval=1d&range=1d")
     try:
         request = urllib.request.Request(url, headers={"User-Agent": "Mozilla/5.0"})
         with urllib.request.urlopen(request, timeout=timeout) as response:
-            rows = list(csv.DictReader(io.TextIOWrapper(response, encoding="utf-8")))
-        close = rows[-1].get("Close", "") if rows else ""
-        price = float(close)
-        return price if price > 0 else None
+            data = json.loads(response.read().decode("utf-8"))
+        result = data.get("chart", {}).get("result") or []
+        price = result[0].get("meta", {}).get("regularMarketPrice") if result else None
+        return float(price) if price else None
     except Exception:
         return None
 

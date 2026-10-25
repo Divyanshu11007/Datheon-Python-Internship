@@ -6,7 +6,7 @@ A console-based investment portfolio utility — enter your stock holdings, get 
 
 - Ticker symbols are validated against the bundled **S&P 500 constituents dataset** (`constituents.csv` — symbol, company, sector).
 - You enter each holding's **ticker, buy price, and share quantity**; positions are stored in a **dictionary** keyed by symbol.
-- The script fetches **live prices from Stooq** (free CSV endpoint, no API key, standard library only). If the network is unavailable it gracefully falls back to **manual price entry**.
+- The script fetches **live prices from Yahoo Finance** (free chart endpoint, no API key, standard library only). If the network is unavailable it gracefully falls back to **manual price entry**.
 - Adding more shares of the same ticker **updates the position with a weighted-average buy price**.
 - It computes **invested capital vs current market value**, per-holding gain/loss, overall P/L, and best/worst performers.
 - The transaction summary is written to **`portfolio_summary.csv`** with Python's built-in `csv` module.
