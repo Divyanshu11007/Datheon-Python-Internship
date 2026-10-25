@@ -1,0 +1,14 @@
+[2026-10-25 17:34:44]  START  scan  target=C:\Users\ASUS\AppData\Local\Temp\opencode\organizer-test
+[2026-10-25 17:34:44]  MOVED  C:\Users\ASUS\AppData\Local\Temp\opencode\organizer-test\backup.zip  →  C:\Users\ASUS\AppData\Local\Temp\opencode\organizer-test\Archives\backup.zip
+[2026-10-25 17:34:44]  MOVED  C:\Users\ASUS\AppData\Local\Temp\opencode\organizer-test\clip.mp4  →  C:\Users\ASUS\AppData\Local\Temp\opencode\organizer-test\Videos\clip.mp4
+[2026-10-25 17:34:44]  MOVED  C:\Users\ASUS\AppData\Local\Temp\opencode\organizer-test\image.png  →  C:\Users\ASUS\AppData\Local\Temp\opencode\organizer-test\Images\image.png
+[2026-10-25 17:34:44]  MOVED  C:\Users\ASUS\AppData\Local\Temp\opencode\organizer-test\photo.jpg  →  C:\Users\ASUS\AppData\Local\Temp\opencode\organizer-test\Images\photo.jpg
+[2026-10-25 17:34:44]  MOVED  C:\Users\ASUS\AppData\Local\Temp\opencode\organizer-test\notes.xyz  →  C:\Users\ASUS\AppData\Local\Temp\opencode\organizer-test\Others\notes.xyz
+[2026-10-25 17:34:44]  MOVED  C:\Users\ASUS\AppData\Local\Temp\opencode\organizer-test\report.pdf  →  C:\Users\ASUS\AppData\Local\Temp\opencode\organizer-test\Documents\report.pdf
+[2026-10-25 17:34:44]  MOVED  C:\Users\ASUS\AppData\Local\Temp\opencode\organizer-test\resume.pdf  →  C:\Users\ASUS\AppData\Local\Temp\opencode\organizer-test\Documents\resume.pdf
+[2026-10-25 17:34:44]  MOVED  C:\Users\ASUS\AppData\Local\Temp\opencode\organizer-test\script.py  →  C:\Users\ASUS\AppData\Local\Temp\opencode\organizer-test\Code\script.py
+[2026-10-25 17:34:44]  MOVED  C:\Users\ASUS\AppData\Local\Temp\opencode\organizer-test\song.mp3  →  C:\Users\ASUS\AppData\Local\Temp\opencode\organizer-test\Audio\song.mp3
+[2026-10-25 17:34:44]  SUMMARY  moved=9  renamed=0  skipped=0  target=C:\Users\ASUS\AppData\Local\Temp\opencode\organizer-test
+[2026-10-25 17:34:54]  START  scan  target=C:\Users\ASUS\AppData\Local\Temp\opencode\organizer-test
+[2026-10-25 17:34:54]  MOVED  C:\Users\ASUS\AppData\Local\Temp\opencode\organizer-test\report.pdf  →  C:\Users\ASUS\AppData\Local\Temp\opencode\organizer-test\Documents\report (1).pdf
+[2026-10-25 17:34:54]  SUMMARY  moved=1  renamed=1  skipped=0  target=C:\Users\ASUS\AppData\Local\Temp\opencode\organizer-test

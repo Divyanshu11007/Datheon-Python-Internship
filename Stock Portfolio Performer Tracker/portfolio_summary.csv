@@ -1,2 +1,2 @@
 Timestamp,Symbol,Company,Sector,Quantity,Buy Price,Current Price,Invested Capital,Market Value,Profit / Loss,Profit / Loss %,Price Source
-2026-10-25 17:14:56,AAPL,Apple Inc.,Information Technology,10.0,175.20,232.86,1752.00,2328.60,+576.60,+32.91,manual
+2026-10-25 17:25:30,AAPL,Apple Inc.,Information Technology,175.56,285.55,347.73,50131.16,61046.60,+10915.44,+21.77,stooq

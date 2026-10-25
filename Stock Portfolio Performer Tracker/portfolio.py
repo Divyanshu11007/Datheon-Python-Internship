@@ -52,10 +52,14 @@ def bold(t):   return _c("1",  t)
 def dim(t):    return _c("2",  t)
 
 # ──────────────────────────────────────────────────────────────────────────────
-# File paths (resolved next to this script so the tool works from anywhere)
+# File paths (resolved next to this script or in current working directory)
 # ──────────────────────────────────────────────────────────────────────────────
 
-_SCRIPT_DIR  = Path(__file__).resolve().parent
+if "__file__" in globals():
+    _SCRIPT_DIR  = Path(__file__).resolve().parent
+else:
+    _SCRIPT_DIR  = Path.cwd()
+
 _UNIVERSE_CSV = _SCRIPT_DIR / "constituents.csv"        # S&P 500 ticker dataset
 _SUMMARY_CSV  = _SCRIPT_DIR / "portfolio_summary.csv"   # generated performance log
 
@@ -265,7 +269,7 @@ def render_report(rows: list) -> None:
     print(f"  Current market value   : ${bold(money(market))}")
     print(f"  Overall gain / loss    : {_pl_coloured(pl_val)}  ({_pl_pct_coloured(pl_pct)})")
     print()
-    print(f"  Best  performer        : {green(bold(best['symbol']))}  {_pl_pct_coloured(best['pl_pct'])}")
+    print(f"  Best  performer        : {green(bold(best['symbol']))}  {_pl_pct_coloured(best['pl_pct'] )}")
     print(f"  Worst performer        : {red(bold(worst['symbol']))}  {_pl_pct_coloured(worst['pl_pct'])}")
     print()
 
