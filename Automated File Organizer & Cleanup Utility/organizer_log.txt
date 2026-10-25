@@ -12,3 +12,29 @@
 [2026-10-25 17:34:54]  START  scan  target=C:\Users\ASUS\AppData\Local\Temp\opencode\organizer-test
 [2026-10-25 17:34:54]  MOVED  C:\Users\ASUS\AppData\Local\Temp\opencode\organizer-test\report.pdf  →  C:\Users\ASUS\AppData\Local\Temp\opencode\organizer-test\Documents\report (1).pdf
 [2026-10-25 17:34:54]  SUMMARY  moved=1  renamed=1  skipped=0  target=C:\Users\ASUS\AppData\Local\Temp\opencode\organizer-test
+[2026-10-25 17:40:05]  START  scan  target=C:\Users\ASUS\Downloads\Contract
+[2026-10-25 17:40:14]  MOVED  C:\Users\ASUS\Downloads\Contract\codeveda_internship_offer_letter.pdf  →  C:\Users\ASUS\Downloads\Contract\Documents\codeveda_internship_offer_letter.pdf
+[2026-10-25 17:40:14]  MOVED  C:\Users\ASUS\Downloads\Contract\Contract document.pdf  →  C:\Users\ASUS\Downloads\Contract\Documents\Contract document.pdf
+[2026-10-25 17:40:14]  MOVED  C:\Users\ASUS\Downloads\Contract\Contract_INR_Approve (1).pdf  →  C:\Users\ASUS\Downloads\Contract\Documents\Contract_INR_Approve (1).pdf
+[2026-10-25 17:40:14]  MOVED  C:\Users\ASUS\Downloads\Contract\Contract_INR_Approve.pdf  →  C:\Users\ASUS\Downloads\Contract\Documents\Contract_INR_Approve.pdf
+[2026-10-25 17:40:14]  MOVED  C:\Users\ASUS\Downloads\Contract\Contract_REJECT.pdf  →  C:\Users\ASUS\Downloads\Contract\Documents\Contract_REJECT.pdf
+[2026-10-25 17:40:14]  MOVED  C:\Users\ASUS\Downloads\Contract\Contract_USD_Approve (1).pdf  →  C:\Users\ASUS\Downloads\Contract\Documents\Contract_USD_Approve (1).pdf
+[2026-10-25 17:40:14]  MOVED  C:\Users\ASUS\Downloads\Contract\Contract_USD_Approve.pdf  →  C:\Users\ASUS\Downloads\Contract\Documents\Contract_USD_Approve.pdf
+[2026-10-25 17:40:14]  MOVED  C:\Users\ASUS\Downloads\Contract\dummy_vendor_contract_filled.pdf  →  C:\Users\ASUS\Downloads\Contract\Documents\dummy_vendor_contract_filled.pdf
+[2026-10-25 17:40:14]  MOVED  C:\Users\ASUS\Downloads\Contract\Food Vendor Agreement Template rev 9-29-23.pdf  →  C:\Users\ASUS\Downloads\Contract\Documents\Food Vendor Agreement Template rev 9-29-23.pdf
+[2026-10-25 17:40:14]  MOVED  C:\Users\ASUS\Downloads\Contract\Sample Vendor Agreement.pdf  →  C:\Users\ASUS\Downloads\Contract\Documents\Sample Vendor Agreement.pdf
+[2026-10-25 17:40:14]  MOVED  C:\Users\ASUS\Downloads\Contract\SampleContract-Shuttle.pdf  →  C:\Users\ASUS\Downloads\Contract\Documents\SampleContract-Shuttle.pdf
+[2026-10-25 17:40:14]  MOVED  C:\Users\ASUS\Downloads\Contract\Supplier-Agreement-Goods-and-Services-NRG-Systems-08-2020.pdf  →  C:\Users\ASUS\Downloads\Contract\Documents\Supplier-Agreement-Goods-and-Services-NRG-Systems-08-2020.pdf
+[2026-10-25 17:40:14]  MOVED  C:\Users\ASUS\Downloads\Contract\test_contract.pdf  →  C:\Users\ASUS\Downloads\Contract\Documents\test_contract.pdf
+[2026-10-25 17:40:14]  MOVED  C:\Users\ASUS\Downloads\Contract\Vendor_Agreement.pdf  →  C:\Users\ASUS\Downloads\Contract\Documents\Vendor_Agreement.pdf
+[2026-10-25 17:40:14]  MOVED  C:\Users\ASUS\Downloads\Contract\vendor_agreement_-_willow_tree_pruning_21.4.22.pdf  →  C:\Users\ASUS\Downloads\Contract\Documents\vendor_agreement_-_willow_tree_pruning_21.4.22.pdf
+[2026-10-25 17:40:14]  MOVED  C:\Users\ASUS\Downloads\Contract\Vendor_Agreement_Final.pdf  →  C:\Users\ASUS\Downloads\Contract\Documents\Vendor_Agreement_Final.pdf
+[2026-10-25 17:40:14]  MOVED  C:\Users\ASUS\Downloads\Contract\Vendor_Agreement_v3.pdf  →  C:\Users\ASUS\Downloads\Contract\Documents\Vendor_Agreement_v3.pdf
+[2026-10-25 17:40:14]  MOVED  C:\Users\ASUS\Downloads\Contract\Vendor_Agreement_v4.pdf  →  C:\Users\ASUS\Downloads\Contract\Documents\Vendor_Agreement_v4.pdf
+[2026-10-25 17:40:14]  MOVED  C:\Users\ASUS\Downloads\Contract\Vendor_Agreement_v5.pdf  →  C:\Users\ASUS\Downloads\Contract\Documents\Vendor_Agreement_v5.pdf
+[2026-10-25 17:40:14]  MOVED  C:\Users\ASUS\Downloads\Contract\Vendor_Agreement_v6.pdf  →  C:\Users\ASUS\Downloads\Contract\Documents\Vendor_Agreement_v6.pdf
+[2026-10-25 17:40:14]  MOVED  C:\Users\ASUS\Downloads\Contract\Vendor_Agreement_v7 (1).pdf  →  C:\Users\ASUS\Downloads\Contract\Documents\Vendor_Agreement_v7 (1).pdf
+[2026-10-25 17:40:14]  MOVED  C:\Users\ASUS\Downloads\Contract\Vendor_Agreement_v7.pdf  →  C:\Users\ASUS\Downloads\Contract\Documents\Vendor_Agreement_v7.pdf
+[2026-10-25 17:40:14]  MOVED  C:\Users\ASUS\Downloads\Contract\vendor_contract_agreement.pdf  →  C:\Users\ASUS\Downloads\Contract\Documents\vendor_contract_agreement.pdf
+[2026-10-25 17:40:14]  MOVED  C:\Users\ASUS\Downloads\Contract\vendor_contract_realistic_pricing.pdf  →  C:\Users\ASUS\Downloads\Contract\Documents\vendor_contract_realistic_pricing.pdf
+[2026-10-25 17:40:14]  SUMMARY  moved=24  renamed=0  skipped=0  target=C:\Users\ASUS\Downloads\Contract
