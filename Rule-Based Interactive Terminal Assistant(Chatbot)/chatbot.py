@@ -64,7 +64,11 @@ def magenta(t):return _c("95", t)
 # Configuration & constants
 # ──────────────────────────────────────────────────────────────────────────────
 
-_SCRIPT_DIR = Path(__file__).resolve().parent
+if "__file__" in globals():
+    _SCRIPT_DIR = Path(__file__).resolve().parent
+else:
+    _SCRIPT_DIR = Path.cwd()
+
 _DATASET = _SCRIPT_DIR / "sample_faq.json"
 _LOG_FILE = _SCRIPT_DIR / "chatbot_log.txt"
 
@@ -110,7 +114,7 @@ FALLBACKS = [
 EXIT_REPLIES = [
     "Goodbye! Thanks for chatting with me. 👋",
     "See you later — have a great day!",
-    "Bye! Come back anytime you need help.",
+    "Bye! Come back anytime you need help."
 ]
 
 THANKS_REPLIES = ["You're welcome!", "Anytime!", "Happy to help!"]
@@ -385,7 +389,7 @@ class ChatSession:
     def cmd_topics(self) -> str:
         rows = [f"{green(f'{n + 1}.')} {bold(i['name']):<22} {dim(i['question'])}"
                 for n, i in enumerate(self.faqs)]
-        return ("Here's everything I know about:\n  " + "\n  ".join(rows) +
+        return ("Here's everything I know about:\n  " + "\n  ".join(rows) + 
                 "\n" + dim("  Tip: pick a number ('tell me 2') or just describe your question."))
 
     def cmd_more(self) -> str:

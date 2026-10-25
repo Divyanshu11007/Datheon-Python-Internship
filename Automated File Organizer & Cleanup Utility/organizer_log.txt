@@ -38,3 +38,23 @@
 [2026-10-25 17:40:14]  MOVED  C:\Users\ASUS\Downloads\Contract\vendor_contract_agreement.pdf  →  C:\Users\ASUS\Downloads\Contract\Documents\vendor_contract_agreement.pdf
 [2026-10-25 17:40:14]  MOVED  C:\Users\ASUS\Downloads\Contract\vendor_contract_realistic_pricing.pdf  →  C:\Users\ASUS\Downloads\Contract\Documents\vendor_contract_realistic_pricing.pdf
 [2026-10-25 17:40:14]  SUMMARY  moved=24  renamed=0  skipped=0  target=C:\Users\ASUS\Downloads\Contract
+[2026-10-25 18:30:27]  START  scan  target=C:\Users\ASUS\Downloads\DMW Practical
+[2026-10-25 18:30:34]  MOVED  C:\Users\ASUS\Downloads\DMW Practical\Copy of income.csv  →  C:\Users\ASUS\Downloads\DMW Practical\Documents\Copy of income.csv
+[2026-10-25 18:30:34]  MOVED  C:\Users\ASUS\Downloads\DMW Practical\Copy of weather_data (1).csv  →  C:\Users\ASUS\Downloads\DMW Practical\Documents\Copy of weather_data (1).csv
+[2026-10-25 18:30:34]  MOVED  C:\Users\ASUS\Downloads\DMW Practical\Copy of weather_data.csv  →  C:\Users\ASUS\Downloads\DMW Practical\Documents\Copy of weather_data.csv
+[2026-10-25 18:30:34]  MOVED  C:\Users\ASUS\Downloads\DMW Practical\dmwpractical.pdf  →  C:\Users\ASUS\Downloads\DMW Practical\Documents\dmwpractical.pdf
+[2026-10-25 18:30:34]  MOVED  C:\Users\ASUS\Downloads\DMW Practical\regression_tree_rules.txt  →  C:\Users\ASUS\Downloads\DMW Practical\Documents\regression_tree_rules.txt
+[2026-10-25 18:30:34]  MOVED  C:\Users\ASUS\Downloads\DMW Practical\weather_classic_rules.txt  →  C:\Users\ASUS\Downloads\DMW Practical\Documents\weather_classic_rules.txt
+[2026-10-25 18:30:34]  MOVED  C:\Users\ASUS\Downloads\DMW Practical\weather_rules.txt  →  C:\Users\ASUS\Downloads\DMW Practical\Documents\weather_rules.txt
+[2026-10-25 18:30:34]  MOVED  C:\Users\ASUS\Downloads\DMW Practical\regression_tree.png  →  C:\Users\ASUS\Downloads\DMW Practical\Images\regression_tree.png
+[2026-10-25 18:30:34]  MOVED  C:\Users\ASUS\Downloads\DMW Practical\weather_rules_coverage.png  →  C:\Users\ASUS\Downloads\DMW Practical\Images\weather_rules_coverage.png
+[2026-10-25 18:30:34]  MOVED  C:\Users\ASUS\Downloads\DMW Practical\regression_tree_income.py  →  C:\Users\ASUS\Downloads\DMW Practical\Code\regression_tree_income.py
+[2026-10-25 18:30:34]  MOVED  C:\Users\ASUS\Downloads\DMW Practical\rule_based_classification_weather.py  →  C:\Users\ASUS\Downloads\DMW Practical\Code\rule_based_classification_weather.py
+[2026-10-25 18:30:34]  MOVED  C:\Users\ASUS\Downloads\DMW Practical\rule_based_classification_weather_classic.py  →  C:\Users\ASUS\Downloads\DMW Practical\Code\rule_based_classification_weather_classic.py
+[2026-10-25 18:30:34]  SUMMARY  moved=12  renamed=0  skipped=0  target=C:\Users\ASUS\Downloads\DMW Practical
+[2026-10-25 18:36:27]  START  scan  target=C:\Users\ASUS\Downloads\DMW Practical
+[2026-10-25 18:36:27]  ABORT  nothing to move
+[2026-10-25 18:37:16]  START  scan  target=C:\Users\ASUS\Downloads\CodeVeda_Internship_Projects
+[2026-10-25 18:37:18]  MOVED  C:\Users\ASUS\Downloads\CodeVeda_Internship_Projects\CodeVeda_DataAnalytics_Internship.ipynb  →  C:\Users\ASUS\Downloads\CodeVeda_Internship_Projects\Code\CodeVeda_DataAnalytics_Internship.ipynb
+[2026-10-25 18:37:18]  MOVED  C:\Users\ASUS\Downloads\CodeVeda_Internship_Projects\README.md  →  C:\Users\ASUS\Downloads\CodeVeda_Internship_Projects\Documents\README.md
+[2026-10-25 18:37:18]  SUMMARY  moved=2  renamed=0  skipped=0  target=C:\Users\ASUS\Downloads\CodeVeda_Internship_Projects

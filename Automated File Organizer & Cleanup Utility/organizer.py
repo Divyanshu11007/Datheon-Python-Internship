@@ -74,7 +74,10 @@ FALLBACK_CATEGORY = "Others"
 # Files this utility must never touch
 _SELF_GUARDS = {"organizer.py", "organizer_log.txt", "organizer_log.md"}
 
-_LOG_FILE = Path(__file__).resolve().parent / "organizer_log.txt"
+if "__file__" in globals():
+    _LOG_FILE = Path(__file__).resolve().parent / "organizer_log.txt"
+else:
+    _LOG_FILE = Path.cwd() / "organizer_log.txt"
 
 
 def classify(ext: str) -> str:
@@ -94,7 +97,7 @@ def unique_destination(dest_dir: Path, filename: str) -> Path:
     stem, suffix = candidate.stem, candidate.suffix
     counter = 1
     while candidate.exists():
-        candidate = dest_dir / f"{stem} ({counter}){suffix}"
+        candidate = dest_dir / f" {stem} ({counter}){suffix}"
         counter += 1
     return candidate
 
